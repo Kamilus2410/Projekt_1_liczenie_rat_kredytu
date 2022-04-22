@@ -11,7 +11,7 @@ public class InputData {
 
     private LocalDate repaymentStartDate = LocalDate.of(2022,04,12);
     private BigDecimal wiborPercent = new BigDecimal("5.5");
-    private BigDecimal amount = new BigDecimal("600000");
+    private BigDecimal amount = new BigDecimal("500000");
     private BigDecimal monthsDuration = BigDecimal.valueOf(180);
     private RateType rateType = RateType.DECREASING;
     private BigDecimal bankMarginPercent = new BigDecimal("1.9");
